@@ -1,7 +1,7 @@
 name: SWOM365-DEV-PGHILDIYAL
 
 on:
-  workflow_dispatch:        # started manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   Deploy:
