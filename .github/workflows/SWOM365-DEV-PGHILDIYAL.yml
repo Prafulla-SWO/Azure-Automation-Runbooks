@@ -1,7 +1,6 @@
 name: SWOM365-DEV-PGHILDIYAL
 
-on:
-  workflow_dispatch:
+on: [workflow_dispatch]
 
 jobs:
   Deploy:
