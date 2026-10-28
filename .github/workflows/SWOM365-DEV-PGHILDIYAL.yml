@@ -12,4 +12,4 @@ jobs:
       StorageAccountName:    ${{ vars.SWOM365_DEV_PGHILDIYAL_ST }}
       RuntimeVersion:        '7.4'                           # confirm value expected by the module deploy script
     secrets:
-      azureCredentials: ${{ secrets.1e62a97f-459d-4044-a3b3-a5a0c0de7ee3 }}   # confirm secret name
+      azureCredentials: ${{ secrets.REPOSITORYSECRET }}   # confirm secret name
