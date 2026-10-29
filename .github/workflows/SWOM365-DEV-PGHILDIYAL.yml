@@ -5,7 +5,7 @@ on:
 
 jobs:
   Deploy:
-    uses: ./.github/workflows/SWOM365-DEV-Branch-Azure-Deployment-Template.yml
+    uses: SoftwareONE-BITCloud/Swo.IT.M365/.github/workflows/SWOM365-DEV-Branch-Azure-Deployment-Template.yml@main
     with:
       ResourceGroupName: ${{ vars.SWOM365_DEV_PGHILDIYAL_RG }}
       AutomationAccountName: ${{ vars.SWOM365_DEV_PGHILDIYAL_AA }}
